@@ -1,0 +1,37 @@
+<!--In this example JavaScript changes the value of the src (source) attribute of an <img> tag:-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Bulb Example</title>
+</head>
+<body>
+    <h2>How the bulb turns on and off</h2>
+    <p>Click the buttons to turn the light bulb on or off.</p>
+
+    <!-- Buttons -->
+    <button id="onbtn">Turn on the light</button>
+    <button id="offbtn">Turn off the light</button>
+
+    <!-- Single image -->
+    <img id="bulbimg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy2WAnExtUFXg74jTjfvC7aReqFGm5TFdZ4g&s" style="width:100px">
+
+    <!-- JavaScript -->
+    <script>
+        const onbutton = document.getElementById("onbtn");
+        const offbutton = document.getElementById("offbtn");
+        const bulb = document.getElementById("bulbimg");
+
+        // Turn on the bulb
+        onbutton.onclick = function() {
+            bulb.src = "https://www.vectorstock.com/royalty-free-vector/realistic-light-bulb-icon-turning-on-vector-28050510";
+        };
+
+        // Turn off the bulb
+        offbutton.onclick = function() {
+            bulb.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy2WAnExtUFXg74jTjfvC7aReqFGm5TFdZ4g&s";
+        };
+    </script>
+</body>
+</html>
