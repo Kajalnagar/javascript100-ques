@@ -1,0 +1,12 @@
+<!-- For changind the font size of the paragraph onclick the button-->
+<!DOCTYPE html>
+<html lang="en"><meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>change the font size</title>
+</head>
+<body>
+<h1>Program3</h1>
+<p id="para">In this program we change the font size of the paragraph by clicking the button</p>
+<button type= "button"onclick="document.getElementById('para').style.fontSize='45px'">click</button>
+</body>
+</html>
