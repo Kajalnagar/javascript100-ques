@@ -1,1 +1,113 @@
+// JAVASCRIPT DISPLAY POSSIBILITY js can display data in different ways:* writing into an Html element , using innerHTML or innerText.
+//* writting into the HTML outside using document.write(). * writing into the alert box, using window.alert() * writing into the browser console using consil.log.
+
+// innerHTML
+<!DOCTYPE html>
+<html>
+<body>
+<h1>My name is kajal</h1>
+<p> My First Paragraph</p>
+<p id="name"></p>
+<script>document.getElementById("name").innerHTML="<h2>Hello My chill pillss</h2>;
+</script>
+</body>
+</html>
+
+// innerText
+<!DOCTYPE html>
+<html>
+<body>
+<h1>My name is kajal</h1>
+<p> My First Paragraph</p>
+<p id="name"></p>
+<script>document.getElementById("name").innerTEXT="Hello My chill pillss";
+</script>
+</body>
+</html>
+
+// document.write()
+<!DOCTYPE html>
+<html>
+<body>
+<h1>My name is kajal</h1>
+<p> My First Paragraph</p>
+<p id="name"></p>
+<script>document.write(7+9);
+</script>
+</body>
+</html>
+
+// Using document.write() after an HTML document is loaded, will delete all existing HTML:
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>My name is kajal</h1>
+<p> My First Paragraph</p>
+<button type="button" onclick="document.write(5+6)>press</button>
+</body>
+</html>
+
+
+// window.alert()
+<!DOCTYPE html>
+<html>
+<body>
+<h1>My name is kajal</h1>
+<p> My First Paragraph</p>
+<script>window.alert(7+9);
+</script>
+</body>
+</html>
+
+// inside the window.alert(); we can use the alert();
+<!DOCTYPE html>
+<html>
+<body>
+<h1>My name is kajal</h1>
+<p> My First Paragraph</p>
+<script>alert(7+9);
+</script>
+</body>
+</html>
+
+// console.log()
+
+<!DOCTYPE html>
+<html>
+<body>
+<script>console.log(7+9);
+</script>
+</body>
+</html>
+
+// window.print() "used to print the page"
+<!DOCTYPE html>
+<html>
+<body>
+<button onclick="window.print()">print the page</button>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
