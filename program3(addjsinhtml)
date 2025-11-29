@@ -1,4 +1,4 @@
-//  connect the js to Html we use . we can attach the js in the html inside the body tag, inside the head tag, outside the body tag and we can connect the jsfile also by using <script>stc="..."</script> etc..
+//  connect the js to Html we use . we can attach the js in the html inside the body tag, inside the head tag, outside the body tag and we can connect the jsfile also by using <script stc="..."></script> etc..
 <!DOCTYPE html>
 <html>
 <body>
