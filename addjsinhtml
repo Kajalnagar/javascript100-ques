@@ -1,8 +1,0 @@
-//  connect the js to Html we use 
-<!DOCTYPE html>
-<html>
-<body>
-<p id="name">kajal</p>
-<script> document.getElementById("name").innerHTML="My name is kajal";</script>
-</body>
-</html>
