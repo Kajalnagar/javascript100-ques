@@ -1,0 +1,104 @@
+/* 
+JS DATATYPE 
+js has 8 datatypes
+string, number, bigint, boolean , object, undefined, null, symbol */
+
+// String 
+ let color = "Yellow";
+ let name = "kajal"
+
+ // Number
+ let x=5;
+ let length = 56.5;
+
+ // Bigint
+ ley x = 125632558625482565n;
+ ley y = BigInt(14785259822689925882984135)
+
+ // Boolean
+
+ let x = true;
+ let y = false;
+
+ // object 
+ const person = {firstname:"Kajal" , lastname:"Nagar"};
+
+ // Array object 
+ const cars = [kajal,dinesh, drishti];
+ // Data object
+ const date = new Date("15-06-2025);
+
+ // Undefined 
+ let x;
+ let k;
+
+ // Null
+ let x =Null;
+ let u=Null;
+
+// Symbol
+const x =symbol() ;
+const y = Symbol();
+
+
+// THE typeof Operator (the typeof operator find the type of the operator for example "kajal" is a string , 5 is a number
+
+typeof "kajal"
+typeof 5
+
+
+ /*There are different types of JavaScript operators:
+
+1. Arithmetic Operators
+2.Assignment Operators
+3.Comparison Operators
+4.Logical Operators*/
+
+// Arithmetic operator example
+<!DOCTYPE html>
+<html>
+<body>
+<h1>My name is kajal<h1>
+<p>Hello everyone my name is kajal and i am writing the javascript code for the Arithmetic operator .</p>
+<p id="name"></p>
+<script>
+let a = 4;
+let x = (200 + 52)*a;
+document.getElementById("name").innerHTML = x;
+</script>
+</body>
+</html>
+
+
+/*The Spread (...) Operator
+The ... operator splits iterables into individual elements.*/
+// in this code we show thw minimum and maximum value in the given number example we have 1234 number given and if we write this code minimum is: 1 , maximum i s: 5 output come
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Assignments</h1>
+<h2>The Spread Operator</h2>
+<h3>The ... Operator</h3>
+
+<p id="demo"></p>
+
+<script>
+let text = "123402595";
+let min = Math.min(...text);
+let max = Math.max(...text);
+
+document.getElementById("demo").innerHTML =
+"Minimum is: " + min + "<br>Maximum is: " + max;
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+ 
