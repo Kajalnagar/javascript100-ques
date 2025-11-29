@@ -1,0 +1,37 @@
+// syntax of java script
+
+// Declare the variables:
+let x=6;
+let y=4;
+//compute the values
+let c = x+y;
+// js literals "literals=fixed value ex(10.26,1026) ; Strings example("kajal"/'kajal')
+// js keywords 
+
+/*console.log("String");
+var Name ="Kajal";
+
+console.log(Name);
+var Name = "Ram";
+console(Name);
+// reassign
+Name = "ankit sir";
+console(Name);
+//Let reassignment but not redeclaration
+//let student = "sleeping";
+//console.log(student);
+
+let student ="not sleeping";
+
+student = "doing";// reassign
+ContentVisibilityAutoStateChangeEvent.log(student);
+// const 
+// not reassign not redeclare
+const great = "hello";
+console.groupCollapsed(graet);
+
+var Name = 563562202565545n;// n is for the bigint
+console(Name);
+// symbole
+var name = symbol("is");
+console.log(typeof(Name));// symbol id differientiate the key vale it give always the unique*/
