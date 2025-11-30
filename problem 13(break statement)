@@ -1,0 +1,79 @@
+// Break Statement terminate the loop or switch statement
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript break</h1>
+<h2>The break Statement in a Loop</h2>
+
+<p>Break the loop when the loop counter is 3:</p>
+
+<p id="demo"></p>
+
+<script>
+let text = "";
+
+for (let i = 0; i < 10; i++) {
+  if (i === 3) { break; }
+  text += "The number is " + i + "<br>";
+}
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
+
+// labled break
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript break</h1>
+<h2>The break Statement in a Loop</h2>
+
+<p>Break the loop when the loop counter is 3:</p>
+
+<p id="demo"></p>
+
+<script>
+let text = "";
+
+loop1: for (let j = 1; j < 5; j++) {
+  loop2: for (let i = 1; i < 5; i++) {
+    if (i === 3) { break loop1; }
+    text += i + "<br>";
+  }
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
+
+// break the loop after the loop counter
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript break</h1>
+<h2>The break Statement in a Loop</h2>
+
+<p>Break the loop when the loop counter is 3:</p>
+
+<p id="demo"></p>
+
+<script>
+let text = "";
+
+loop1: for (let j = 1; j < 5; j++) {
+  loop2: for (let i = 1; i < 5; i++) {
+    if (i === 3) { break loop2; }
+    text += i + "<br>";
+  }
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
+
+
