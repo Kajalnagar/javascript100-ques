@@ -1,0 +1,298 @@
+/*Conditional Statements
+Conditional Statements allow us to perform different actions for different conditions.
+
+Conditional statements run different code depending on true or false conditions.
+
+Conditional statements include:
+
+if
+if...else
+if...else if...else
+switch
+ternary (? :)*/
+
+// IF condition
+ <!DOCTYPE html>
+ <html>
+ <body>
+ <h1>Hello Everyone</h1>
+<p>"Good Day!" if the hour is less than 18:00:</p>
+<p id = "demo" >Good Morning</p>
+<script>
+if(new Date().getHours()<18){
+document.getElementById("demo").innerHTML="Good Day";
+}
+else{
+document.getElementById("demo").innerHTML="Bad Day";}
+</script>
+</body>
+</html>
+
+// another example
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Check you can drive or not</h1>
+<p id= "name"></p>
+<script>
+// firstly we initilize the values
+let age =18;
+let text = "You can drive";
+// after initilizing we use the loop
+if(age>=18){
+text = "you can drive";
+}
+// now we print the value
+document.getElementById=("name").innerHTML = text;
+
+</script>
+</body>
+</html>
+
+// Nested if(using if inside the if )
+<!DOCTYPE html>
+<html>
+<body>
+<h1> Nested loop</h1>
+<p id = "demo"></p>
+<script>
+let age = 16;
+let country = "India";
+let text = "You cannot drive";
+if(country=="India"){
+if(age>=17){
+text="you can drive";
+}}
+document.getElementById("demo").innerHTML=text;
+</script>
+</body>
+</html>
+
+// logical AND operator
+<!DOCTYPE html>
+<html>
+<body>
+<h1> Nested loop</h1>
+<p id = "demo"></p>
+<script>
+let age = 16;
+let country = "India";
+let text = "You cannot drive";
+if(country=="India"&& age >= 17){
+
+text="you can drive";
+}
+document.getElementById("demo").innerHTML=text;
+</script>
+</body>
+</html>
+
+// if-else condition
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Javascript if...else</h1>
+<p> A time based greeting</p>
+<p id = "demo" ></p>
+<script>
+const hour = new Date().getHours();
+let greeting;
+if (hour <18){
+greeting = "Good morning";
+}
+else{
+greeting = "Good Evening";}
+document.getElementById("demo").innerHTML = greeting;
+</script>
+</body>
+</html>
+
+// else if statement
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>greeting</h1>
+<p>A greeting for that</p>
+<p id = "demo"></p>
+<script>
+const time = new Date().getHours();
+let greeting;
+if (time < 10){
+greeting="Good morning";
+}else if (time < 20){
+greeting = "good evening";
+}
+else{
+greeting = "Good day"
+}
+document.getElementById("demo").innerHTML=greeting;
+</script>
+</body>
+</html>
+
+// else if for with link "This example will write a link to either W3Schools or to the World Wildlife Foundation (WWF). By using a random number, there is a 50% chance for each of the links."
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Math.random()</h2>
+
+<p id="demo"></p>
+
+<script>
+let text;
+if (Math.random() < 0.5) {
+  text = "<a href='https://w3schools.com'>Visit W3Schools</a>";
+} else {
+  text = "<a href='https://wwf.org'>Visit WWF</a>";
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
+
+// Ternary opeator
+
+<!DOCTYPE html>
+<html>
+<body>
+<h3>Ternary operator</h3>
+<p id = "demo" ></p>
+<script>
+let age = 16;
+let text = (age <18) ? "Minor": "Adult";
+document.getElementById("demo").innerHTML = text;
+</script>
+</body>
+</html>
+
+// Switch case
+<!DOCTYPE html>
+<html>
+<body>
+<h1>js control flow</h1>
+<h3>The switch case</h3>
+<p id = "demo"></p>
+<script>
+let days;
+let date = new Date().getDay();
+switch(date){
+ case 0:
+    day = "Sunday";
+    break;
+  case 1:
+    day = "Monday";
+    break;
+  case 2:
+    day = "Tuesday";
+    break;
+  case 3:
+    day = "Wednesday";
+    break;
+  case 4:
+    day = "Thursday";
+    break;
+  case 5:
+    day = "Friday";
+    break;
+  case  6:
+    day = "Saturday";
+}
+
+document.getElementById("demo").innerHTML = "Today is " + day;
+</script>
+
+</body>
+</html>
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
