@@ -1,0 +1,31 @@
+// for loop
+<!DOCTYPE html>
+<html>
+<body>
+<h1>js for loop</h1>
+<p id = "demo"></p>
+<script>
+const cars=["bmw", "maruti", "kia", "volvo", "brezza"];
+let text  = " " ;
+for (let i = 0; i < cars.length; i++) {
+text += cars[i] +"<br>";
+}
+document.getElementById("demo").innerHTML=text;
+</script>
+</body>
+</html>
+
+//example
+<!DOCTYPE html>
+<html>
+<body>
+<h1>js for loop</h1>
+<p id = "demo"></p>
+<script>
+let text = "";
+for (let i = 0; i<5;i++;){
+text += "The number is " +i+ "<br>"}
+document.getElementById("demo").innerHTML=text;
+</script>
+</body>
+</html>
