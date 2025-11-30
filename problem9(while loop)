@@ -1,0 +1,44 @@
+// while loop
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Boolean</h1>
+<h2>Use Case: While Loop</h2>
+
+<p id="demo"></p>
+
+<script>
+let text = "";
+let i = 1;
+while (i<10){
+text += i;
+i++;}
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
+
+// Boolean object
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Booleans</h1>
+<p>Booleans and Boolean objects cannot be safely compared:</p>
+
+<p id="demo"></p>
+
+<script>
+// x is a boolean
+let x = false;
+
+// y is an object
+let y = new Boolean(false);
+
+document.getElementById("demo").innerHTML = typeof x + "<br>" + typeof y;
+</script>
+
+</body>
+</html>
