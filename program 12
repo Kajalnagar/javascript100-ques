@@ -1,0 +1,20 @@
+/* difference b/w while loop and do while loop  * in the while loop condition is checked first then the loop run * in the do while loop  in this loop run first and then the condition checke
+when you want to run only if the condition is true we use "while" and when you want the body run at least once then you use do while loop*/
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>js do while loop</h1>
+<p id = "demo"></p>
+<script>
+let text = "";
+let i=0;
+do{
+text += "<br> the number is " +i;
+i++;}
+while (i<20);
+
+document.getElementById("demo").innerHTML=text;
+</script>
+</body>
+</html>
