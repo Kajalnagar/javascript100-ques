@@ -1,0 +1,16 @@
+// Javascript  Booleans 
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1> boolean</h1>
+<h2>use case: Equality>/h2>
+<p id = "demo"></p>
+<script> 
+let x=5;
+document.getElementById("demo").innerHTML = (x==8);
+</script>
+</body>
+</html>
+
+//
