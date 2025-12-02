@@ -1,0 +1,47 @@
+// Normally js numbers are primitive values created from literals, but numbers can also be defined as objects with the keyword new
+<!DOCTYPE html>
+<html>
+<body>
+<h1>js numbers<h1>
+<p id="name"></p>
+<script>
+let x =123; // x is a number
+let y = new Number(123);
+document.getElementById("name").innerHTML = typeof x + "<br>" + type y;
+</script>
+</body>
+</html>
+/*
+output 
+number
+object
+*/
+
+// When using the == operator, x and y are equal:
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Numbers</h2>
+
+<p>Numbers and Number objects cannot be safely compared:</p>
+
+<p id="demo"></p>
+
+<script>
+// x is a number
+let x = 500;
+
+// y is an object
+let y = new Number(500);
+document.getElementById("demo").innerHTML = (x==y);
+</script>
+
+</body>
+</html>
+
+// output true
+
+
+
+// javascript objects cannot be compared
