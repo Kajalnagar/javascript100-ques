@@ -1,0 +1,73 @@
+// Javascript string search Methods
+//String indexOf();[used to find the first occurrence of a specificed value withnin or an array and returns its index.if the value is not found it return -1]
+
+ <!DOCTYPE html>
+ <html>
+ <body>
+ <h1>Hello everyone</h1>
+ <p>i am wrinting indexOf() method</p>
+ <p id="name"></p>
+ <script>
+ let text = "Locate the text where it occur";
+ let index=text.indexOf()("where");// it give the place number where the 'where' exit in this where came in 16 place so that's the output
+ document.getElementbyId("name").innerHTML=index;
+ </script>
+ </body>
+ </html>
+
+// lastIndexOf() Method[retern the index of last occurence of a specified text in a string]
+ <!DOCTYPE html>
+ <html>
+ <body>
+ <h1>Hello everyone</h1>
+ <p>i am wrinting indexOf() method</p>
+ <p id="name"></p>
+ <script>
+ let text = "Locate the text where it occur where";
+ let index=textlastIndexOf()("where");// it give the place number where the 'where' exit in this where came in  31 place(last where string) so that's the output
+ document.getElementbyId("name").innerHTML=index;
+ </script>
+ </body>
+ </html>
+
+ //search() method[searches a string for the strings and returns the position of the match]
+  <!DOCTYPE html>
+ <html>
+ <body>
+ <h1>Hello everyone</h1>
+ <p>i am wrinting indexOf() method</p>
+ <p id="name"></p>
+ <script>
+ let text = "Locate the text where it occur";
+ let index=text.search()("where");// in this search() method serath the where string it come in the 16th place so it give the output 16
+ document.getElementbyId("name").innerHTML=index;
+ </script>
+ </body>
+ </html>
+
+ /*The two methods, indexOf() and search(), are equal?
+
+They accept the same arguments (parameters), and return the same value?
+
+The two methods are NOT equal. These are the differences:
+
+The search() method cannot take a second start position argument.
+The indexOf() method cannot take powerful search values (regular expressions).*/
+
+// match() method[returns an array containing the results of matching a string against a string 
+
+<!DOCTYPE html>
+ <html>
+ <body>
+ <h1>Hello everyone</h1>
+ <p>i am wrinting indexOf() method</p>
+ <p id="name"></p>
+ <script>
+ let text = "The rain in SPAIN stays mainly in a plain";
+ const myArry = text.atch("ain");
+ document.getElementbyId("name").innerHTML=myArr.length;
+ </script>
+ </body>
+ </html>
+
+
