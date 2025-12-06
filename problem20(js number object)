@@ -44,4 +44,5 @@ document.getElementById("demo").innerHTML = (x==y);
 
 
 
-// javascript objects cannot be compared
+// comparing 2 javascript number is always false result give
+
