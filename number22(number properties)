@@ -1,0 +1,166 @@
+Number.EPSILON is the difference between the smallest floating point number greater than 1 and 1.It cannot work in internet Explorer
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Numbers</h1>
+<h2>The EPSILON Property</h2>
+
+<p>The difference between 1 and the smallest floating point number greater than 1, in JavaScript is:</p>
+<p id="demo"></p>
+
+<script>
+let x = Number.EPSILON;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>// output is 2.220446049250313e-16
+
+// MAX_Value = Number.MAX_VALUE is a constant representing the largest possible number in JavaScript.
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Numbers</h1>
+<h2>The MAX_VALUE Property</h2>
+
+<p>The largest possible number in JavaScript is:</p>
+<p id="demo"></p>
+
+<script>
+let x = Number.MAX_VALUE;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>
+// output 1.7976931348623157e+308
+
+//Number properties belong to the JavaScript Number Object.These properties can only be accessed as Number.MAX_VALUE.Using x.MAX_VALUE, where x is a variable or a value, will return undefined:
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Number Properties</h1>
+
+<p>Using a Number property on a variable, or value, will return undefined:</p>
+
+<p id="demo"></p>
+
+<script>
+let x = 6;
+document.getElementById("demo").innerHTML = x.MAX_VALUE;
+</script>
+
+</body>
+</html>
+// output undefined
+
+// Number.MIN_VALUE is a constant representing the lowest possible number in JavaScript.
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Numbers</h1>
+<h2>The MIN_VALUE Property</h2>
+
+<p>The smallest number possible in JavaScript is:</p>
+<p id="demo"></p>
+
+<script>
+let x = Number.MIN_VALUE;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html> output 5e-324
+
+//Number.MIN_SAFE_INTEGER represents the minimum safe integer in JavaScript.Number.MIN_SAFE_INTEGER is -(253 - 1).
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Numbers</h1>
+<h2>The MIN_SAFE_INTEGER Property</h2>
+
+<p>The minimum safe integer in JavaScript is:</p>
+<p id="demo"></p>
+
+<script>
+let.x = Number.MIN_SAFE_INTEGER;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>// output -9007199254740991
+
+// js positive_infinity
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Numbers</h1>
+<h2>The POSITIVE_INFINITY Property</h2>
+
+<p id="demo"></p>
+
+<script>
+let x = Number.POSITIVE_INFINITY;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html> // output infinity
+
+// js NEGATIVE_INFINITY
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Numbers</h1>
+<h2>The POSITIVE_INFINITY Property</h2>
+
+<p id="demo"></p>
+
+<script>
+let x = Number.NEGATIVE_INFINITY;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html> // output -infinity
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
